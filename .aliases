@@ -1,0 +1,36 @@
+alias gs="git status"
+alias gcom="git checkout master"
+alias gch="git checkout"
+alias gaa="git add ."
+alias gmm="git merge master"
+alias gc="git commit -m"
+alias gp="git push"
+alias gamend="git commit --amend --no-edit"
+alias gpurge="git remote prune origin | git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -D"
+
+alias p="vendor/bin/phpunit"
+
+alias art="php artisan"
+alias migrate="php artisan migrate"
+alias tinker="php artisan tinker"
+alias mfs="php artisan migrate:fresh --seed"
+
+alias ci="composer install"
+alias cr="composer require"
+
+alias y="yarn"
+alias yu="yarn upgrade"
+alias ya="yarn add"
+
+alias prod="npm run production"
+alias watch="npm run watch"
+
+alias copyssh="pbcopy < $HOME/.ssh/id_rsa.pub"
+alias reloadcli="source $HOME/.zshrc"
+
+alias tailwind="./node_modules/.bin/tailwind"
+alias ti="./node_modules/.bin/tailwind init"
+
+alias jigsaw="./vendor/bin/jigsaw"
+
+alias du="ncdu --color dark -rr -x --exclude .git --exclude node_modules --exclude vendor"

@@ -1,0 +1,125 @@
+{
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.explorerKind": "integrated",
+  "explorer.openEditors.visible": 0,
+  "editor.fontFamily": "'IBM Plex Mono', 'Fira Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.minimap.enabled": false,
+  "editor.fontLigatures": true,
+  "editor.dragAndDrop": false,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.tabCompletion": "on",
+  "editor.cursorBlinking": "smooth",
+  "editor.lineHeight": 28,
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "[php]": {
+    "editor.tabSize": 4
+  },
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.folding": false,
+  "editor.smoothScrolling": true,
+  "explorer.confirmDelete": false,
+  "files.trimTrailingWhitespace": true,
+  "files.autoSave": "onFocusChange",
+  "files.associations": {
+    "*.css": "postcss",
+    ".php_cs": "php",
+    ".php_cs.dist": "php",
+    "*.php": "php"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/public/js/**": true,
+    "**/public/css/**": true
+  },
+  "window.openFilesInNewWindow": "on",
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "blade.php": "html",
+    "postcss": "css",
+    "vue-html": "html",
+    "edge": "html",
+    "javascript": "javascriptreact",
+  },
+  "emmet.syntaxProfiles": {
+    "blade": "html",
+    "edge": "html"
+  },
+  "workbench.editor.enablePreview": true,
+  "workbench.fontAliasing": "auto",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#333",
+    "statusBar.foreground": "#fff",
+    "statusBar.noFolderBackground": "#333",
+    "statusBar.noFolderForeground": "#fff"
+  },
+  "namespaceResolver.showMessageOnStatusBar": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "eslint.enable": true,
+  "eslint.packageManager": "npm",
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    {
+      "language": "vue",
+      "autoFix": true
+    },
+    {
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "javascriptreact",
+      "autofix": true
+    }
+  ],
+  "vetur.format.defaultFormatter.js": "prettier",
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.ts": "prettier",
+  "vetur.validation.style": true,
+  "vetur.validation.template": true,
+  "html.format.wrapLineLength": 80,
+  "html.format.wrapAttributes": "force-aligned",
+  "html.format.endWithNewline": true,
+  "importCost.javascriptExtensions": [
+    "\\.jsx?$",
+    "\\.js?$",
+  ],
+  "importCost.typescriptExtensions": [
+    "\\.tsx?$",
+    "\\.vue$"
+  ],
+  "search.smartCase": true,
+  "search.exclude": {
+    "**/public/css/**": true,
+    "**/public/js/**": true,
+    "**/storage/app": true,
+    "**/storage/framework": true,
+    "**/vendor": true
+  },
+  "php-cs-fixer.config": ".php_cs",
+  "php-cs-fixer.autoFixBySemicolon": true,
+  "php-cs-fixer.allowRisky": true,
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+  "php-cs-fixer.onsave": true,
+}
