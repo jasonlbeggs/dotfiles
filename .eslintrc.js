@@ -1,13 +1,5 @@
-/* Install the following packages
-[
-  "babel-eslint",
-  "eslint",
-  "eslint-config-prettier",
-  "eslint-plugin-prettier",
-  "eslint-plugin-vue",
-  "prettier"
-]
-*/
+// npm install --save-dev babel-eslint eslint eslint-config-prettier eslint-plugin-prettier eslint-plugin-vue prettier
+
 module.exports = {
   "root": true,
   "parserOptions": {
